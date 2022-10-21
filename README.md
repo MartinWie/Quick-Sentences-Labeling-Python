@@ -4,6 +4,13 @@
 
 A quick and dirty python script to label a list of given sentences.
 
+## Usage
+
+1) Feed in a list of text blocks into "sentence_list"
+2) Adapt "switcher" with your labels
+3) Adapt the scripts output
+4) Run the script.
+(You can also add multiple labels to one text block by simply typing multiple numbers. For example, "12" would result in "Happy", "Sad" for the given sentence)
 
 ## TODOS's
 - tbd
