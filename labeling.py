@@ -43,7 +43,7 @@ for sentence in sentence_list:
         
         print("\nInvalid input, please only use the displayed options\n")
     
-    labeled_sentences.append([sentence, emotions])
+    labeled_sentences.append([sentence, sorted(emotions)])
 
 print(labeled_sentences)
 
