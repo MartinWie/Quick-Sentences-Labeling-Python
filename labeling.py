@@ -1,5 +1,5 @@
 import os
-sentence_list=["Hallo wie gehts dir?","Moin moin Meister.", "Peter macht Faxen"]
+sentence_list=["Are you trying to say that you're not happy with your success?","I'd be happy knowing you're safe.", "I hope you two are happy together."]
 labeled_sentences=[]
 
 switcher = {
@@ -28,11 +28,10 @@ for sentence in sentence_list:
     os.system('cls' if os.name == 'nt' else 'clear')
     emotion=None
     emotions=[]
-    print("Mail:\n####################\n\n" + sentence + "\n\n####################\n")
+    print("Text to label:\n####################\n\n" + sentence + "\n\n####################\n")
     while not emotion:
         print("Please select one of the following options:")
         user_input = input(options_string + "-> ")
-        #user_input="123"
 
         for element in range(0, len(user_input)):
             emotion=get_emotion(user_input[element]) 
