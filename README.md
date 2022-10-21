@@ -1,6 +1,6 @@
 # Quick-Sentences-Labeling-Python
 
-![RunsOn](https://img.shields.io/badge/Used%20technologies-Python%20-green)]() [![license](https://img.shields.io/github/license/MartinWie/Quick-Sentences-Labeling-Python)](https://github.com/MartinWie/Quick-Sentences-Labeling-Python/blob/main/LICENSE) [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
+![RunsOn](https://img.shields.io/badge/Used%20technologies-Python%20-green) [![license](https://img.shields.io/github/license/MartinWie/Quick-Sentences-Labeling-Python)](https://github.com/MartinWie/Quick-Sentences-Labeling-Python/blob/main/LICENSE) [![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 
 A quick and dirty python script to label a list of given sentences.
 
